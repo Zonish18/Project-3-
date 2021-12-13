@@ -1,3 +1,6 @@
+//code inspo from https://www.youtube.com/watch?v=j-ZLDEnhT3Q
+
+
 PImage girl;
 
 void setup() {
