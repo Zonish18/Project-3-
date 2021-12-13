@@ -1,0 +1,19 @@
+PImage girl;
+
+void setup() {
+  size(800, 700);
+  girl = loadImage("girl.jpeg");
+  background(255);
+}
+
+void draw () {
+    for (int i = 0; i < 200; i++) {
+    float x = random(width);
+    float y = random(height);
+    color c = girl.get(int(x),int(y));
+    fill(c);
+    ellipse(x, y, 10, 10);
+    }
+    
+}
+      
